@@ -1,1 +1,1 @@
-# WordPress-on-Azure-App-Service
+# WordPress on Azure App Service
