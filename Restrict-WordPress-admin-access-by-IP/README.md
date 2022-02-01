@@ -39,6 +39,9 @@ The rule above will allow you to access the WordPress login page for specified I
  
  Figure 2.0: 403 Forbidden Error page
  
+ 
+ ---
+ 
  In this article, we have learnt how to provide an extra layer of WordPress security to your login pages (WP-admin folder and wp-login.php file) by using limit login access to IP addresses.
  
  
