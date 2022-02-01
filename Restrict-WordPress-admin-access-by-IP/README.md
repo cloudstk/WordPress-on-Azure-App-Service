@@ -22,7 +22,7 @@ Log in to FTP/SFTP server. Once authenticated, you can see a similar screen, as 
 **Step 3:**
 ----
 
-Insert the code below into the wwwroot/.htaccess file, remember to replace the IP “xx.xx.xx.xx” with a specific IP address that you allow to access WordPress Admin login page. If you want to add more IP addresses to allow access WP-ADMIN area, copy “SetENVIf X-Client-IP "xx.xx.xx.xx" line. You can add as many IP addresses as you want. If your IP address is not static, It may not be the best option for you.
+Insert the code below into the wwwroot/.htaccess file, remember to replace the IP “xx.xx.xx.xx” with a specific IP address that you allow to access WordPress Admin login page. If you want to add more IP addresses to allow access WP-ADMIN area, copy “SetENVIf X-Client-IP "xx.xx.xx.xx" line. You can add as many IP addresses as you want. If your IP address is not static, it may not be the best option for you.
 ```
 <Files wp-login.php>
  Order Deny,Allow
@@ -33,7 +33,7 @@ Insert the code below into the wwwroot/.htaccess file, remember to replace the I
 ```
 
 
-The rule above will allow you to access the WordPress login page for specified IPs address. All other IP addresses will get redirected to the 403 Forbidden Error page instead of the login page,as shown as figure 2.0
+The rule above will allow you to access the WordPress login page for specified IPs address. All other IP addresses will get redirected to the 403 Forbidden Error page instead of the login page,as shown in figure 2.0
 
  ![Image](/Restrict-WordPress-admin-access-by-IP/media/403_Forbidden_err_page.jpg "icon")
  
