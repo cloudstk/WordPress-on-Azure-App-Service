@@ -6,3 +6,4 @@ Once you install an SSL certificate on your website, you might still have some i
  ![Image](/Redirect-HTTP-to-HTTPS-for-WordPress-on-Azure/media/Redirect_HTTP_traffic_to_HTTPS.jpg "icon")
  
  SSL Testing tool
+ https://www.digicert.com/help
