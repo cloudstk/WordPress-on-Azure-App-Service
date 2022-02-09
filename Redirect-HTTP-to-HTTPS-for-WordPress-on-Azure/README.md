@@ -21,7 +21,7 @@ http://<span></span>www<span></span>.example.com
  
 SSL Testing tools
 --
-If you want to check SSL certificate is installed properly, whether your domain has a modern IPv6, is DNSSEC-signed and check for common vulnerabilities, then you can use any of the following online tools.
+To check if the SSL certificate is installed properly, whether your domain has a modern IPv6, is DNSSEC-signed and check for common vulnerabilities, then you can use any of the following online tools.
 
 
 https://<span>xn--</span>sikkerpnettet-vfb.dk/
