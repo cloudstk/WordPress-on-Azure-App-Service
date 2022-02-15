@@ -9,5 +9,9 @@ Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; prelo
 
 </ifModule>
 ````
-
+Requirements
+In order for HSTS to work as expected, you neet to:
+- Have enabled HTTPS before HSTS so browers can accept your HSTS setting
+ 
 Verify HSTS Header
+
