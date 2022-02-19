@@ -20,4 +20,5 @@ Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; prelo
 
  
 Verify HSTS Header
-
+--
+To verify whether you have fulfilled the requirements or not, you can submit your site at https://hstspreload.org/ to check HSTS preload status and eligibility for preloading.
