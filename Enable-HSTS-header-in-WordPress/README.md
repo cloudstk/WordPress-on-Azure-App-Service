@@ -2,8 +2,9 @@
 Enable HTTP Strict Transport Security (HSTS) in WordPress that’s running on Azure App Service
 ===
 Requirements
-In order for HSTS to work as expected, you neet to:
+In order for HSTS to work as expected, you need to:
 - Have enabled HTTPS before HSTS so browers can accept your HSTS setting
+- Redirect from HTTP to HTTPS
 
 The configurable parameters for HSTS are:
 - Enable HSTS(Strict-Transport-Security): On/Off.
