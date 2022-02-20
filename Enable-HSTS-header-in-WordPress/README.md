@@ -2,9 +2,24 @@
 Enable HTTP Strict Transport Security (HSTS) in WordPress that’s running on Azure App Service
 ===
 Requirements
-In order for HSTS to work as expected, you need to:
-- Have enabled HTTPS before HSTS so browers can accept your HSTS setting
+
+In order to enable HSTS, you need to fulfill the following requirements:
+- Present a valid SSL certificate
+- Redirect all HTTP requests to HTTPS (including “www.” and all subdomains)
 - Redirect from HTTP to HTTPS
+- Set the Strict-Transport-Security header and require parameters
+
+HSTS Syntax is:
+```
+Strict-Transport-Security: max-age=<expire-time>
+Strict-Transport-Security: max-age=<expire-time>; includeSubDomains #Optional
+Strict-Transport-Security: max-age=<expire-time>; preload #Optinal
+
+```
+
+Max Age(max-age): This is essentially a "Time to live" field for the HSTS header.
+
+
 
 The configurable parameters for HSTS are:
 - Enable HSTS(Strict-Transport-Security): On/Off.
