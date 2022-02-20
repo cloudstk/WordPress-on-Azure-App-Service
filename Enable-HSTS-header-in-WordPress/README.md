@@ -22,3 +22,17 @@ Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; prelo
 Verify HSTS Header
 --
 To verify whether you have fulfilled the requirements or not, you can submit your site at https://hstspreload.org/ to check HSTS preload status and eligibility for preloading.
+
+**Note:** Be aware about the preload list. Once your website in the preload list, it cannot easily be undone. It may take months to remove from the preload list. Read here for more details about [the Preload removal.](https://hstspreload.org/#removal)
+
+
+I hope that this article will help you to add an extra layer of security on your website.
+
+---
+**Useful links:**
+
+[Mozilla – The HTTP Strict-Transport-Security (HSTS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)
+
+[OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html)
+
+
