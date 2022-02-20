@@ -5,9 +5,9 @@ Requirements
 
 In order to enable HSTS, you need to fulfill the following requirements:
 - Present a valid SSL certificate
-- Redirect all HTTP requests to HTTPS (including “www.” and all subdomains)
+- Redirect all HTTP requests to HTTPS (including “www<span>.</span>” and all subdomains)
 - Redirect from HTTP to HTTPS
-- Set the Strict-Transport-Security header and require parameters
+- Set the Strict-Transport-Security header policy and required parameters
 
 HSTS Syntax is:
 ```
@@ -20,15 +20,11 @@ Strict-Transport-Security: max-age=<expire-time>; preload #Optinal
 Max Age(max-age): This is essentially a "Time to live" field for the HSTS header.
 
 
-
-The configurable parameters for HSTS are:
-- Enable HSTS(Strict-Transport-Security): On/Off.
-- Max Age(max-age): This is essentially a "Time to live" field for the HSTS header.
-
 Add the following code to your .htaccess file.
 ```
 <ifModule mod_headers.c>
-Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"  # Enforcing HSTS
+
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"  
 
 </ifModule>
 ````
