@@ -42,8 +42,13 @@ I hope that this article will help you to add an extra layer of security on your
 ---
 **Useful links:**
 
+[RFC 6797 (HTTP Strict Transport Security (HSTS)) by the IETF](https://datatracker.ietf.org/doc/html/rfc6797)
+
 [Mozilla – The HTTP Strict-Transport-Security (HSTS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)
 
 [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html)
+
+[Wikipedia HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+
 
 
