@@ -30,3 +30,10 @@ https://<span>www</span>.digicert.com/help
 
 
 Test your website and see where security can improve.
+
+---
+Useful Links
+--
+[Redirections in HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Redirections)
+
+
