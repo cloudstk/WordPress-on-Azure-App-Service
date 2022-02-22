@@ -4,9 +4,8 @@ Enable HTTP Strict Transport Security (HSTS) in WordPress that’s running on Az
 Requirements
 
 In order to enable HSTS, you need to fulfill the following requirements:
-- Present a valid SSL certificate
+- Have a valid SSL certificate
 - Redirect all HTTP requests to HTTPS (including “www<span>.</span>” and all subdomains)
-- Redirect from HTTP to HTTPS
 - Set the Strict-Transport-Security header policy and required parameters
 
 HSTS Syntax is:
