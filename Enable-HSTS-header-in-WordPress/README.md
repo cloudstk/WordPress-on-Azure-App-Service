@@ -1,6 +1,12 @@
 
 Enable HTTP Strict Transport Security (HSTS) in WordPress that’s running on Azure App Service
 ===
+
+
+Benefits
+-	Declares that a client should only interact with a site over HTTPS
+-	Helps protect against “downgrade attacks”
+
 Requirements
 
 To enable HSTS, you need to fulfill the following requirements:
