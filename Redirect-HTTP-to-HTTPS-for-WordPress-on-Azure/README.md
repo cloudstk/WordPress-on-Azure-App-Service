@@ -20,7 +20,7 @@ http://<span></span>www<span></span>.example.com
  
  
 SSL Testing tools
---
+---
 To check if the SSL certificate is installed properly, whether your domain has a modern IPv6, is DNSSEC-signed and check for common vulnerabilities, then you can use any of the following online tools.
 
 
@@ -33,7 +33,7 @@ Test your website and see where security can improve.
 
 ---
 Useful Links
---
+---
 [Redirections in HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Redirections)
 
 
