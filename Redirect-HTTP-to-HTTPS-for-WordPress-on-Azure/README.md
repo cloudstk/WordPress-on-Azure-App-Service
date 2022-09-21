@@ -1,6 +1,6 @@
 
 Redirect HTTP traffic to HTTPS for WordPress on Azure Web App on Linux
-====
+---
 Once you install an SSL certificate on your website, you might still have some issues. The browser will display ‘info or Not Secure’ icon on the address bar. You need to redirect all HTTP request to the HTTPS port.
 
 You can now simply do this as follows: In your app page, select **TLS/SSL setting**. Then, in **HTTPS Only**, select **On** and **Save**.
