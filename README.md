@@ -7,3 +7,5 @@ Useful Links
 
 [Create a PHP web app in Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/quickstart-php?pivots=platform-linux&tabs=cli)
 
+[Create a WordPress site](https://learn.microsoft.com/en-us/azure/app-service/quickstart-wordpress#create-wordpress-site-using-azure-portal)
+
